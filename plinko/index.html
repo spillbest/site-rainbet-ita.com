@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Plinko su Rainbet: righe, rischio e quanto paga</title>
+<meta name="description" content="Plinko su Rainbet: RTP dichiarato, da 8 a 16 righe, tre livelli di rischio e moltiplicatori fino a 1.000x. Dove giocarlo con conto in euro.">
+<link rel="canonical" href="https://rainbet-ita.com/plinko/">
+<link rel="alternate" hreflang="it-it" href="https://rainbet-ita.com/plinko/">
+<link rel="alternate" hreflang="x-default" href="https://rainbet-ita.com/plinko/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#0b0b10">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Plinko: righe, rischio e tabella dei payout", "inLanguage": "it-IT", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://rainbet-ita.com/plinko/"}, "about": {"@type": "Thing", "name": "Rainbet"}}</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+img{display:block;max-width:100%}
+:root{
+ --ink:#0b0b10; --ink2:#121218; --pane:#17171f; --pane2:#1e1e28;
+ --amb:#ff8a3d; --amb2:#ffa869; --ambd:#7a3d15;
+ --txt:#f2efe9; --dim:#9a958c; --dim2:#6f6b64; --edge:rgba(242,239,233,.08);
+ --ok:#5fd08a;
+}
+body{font:16px/1.66 ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+ color:var(--txt);background:var(--ink);-webkit-font-smoothing:antialiased}
+a{color:var(--txt);text-decoration:none}
+svg{width:20px;height:20px;fill:none}
+.rb-w{max-width:1140px;margin:0 auto;padding:0 18px}
+
+/* шапка: логотип + отдельная полоса навигации */
+.rb-top{position:sticky;top:0;z-index:60;background:var(--ink2);border-bottom:1px solid var(--edge)}
+.rb-top .in{max-width:1140px;margin:0 auto;height:66px;display:flex;align-items:center;
+ gap:14px;padding:0 18px}
+.rb-top .bg{display:none;background:none;border:0;color:var(--txt);cursor:pointer;padding:5px}
+.rb-top .lg img{height:29px;width:auto}
+.rb-top .sp{flex:1}
+.rb-top .in-a{background:transparent;border:1px solid var(--edge);font-weight:700;font-size:14px;
+ padding:10px 18px;border-radius:6px;color:var(--dim)}
+.rb-top .in-a:hover{color:var(--txt);border-color:var(--amb)}
+.rb-top .up{background:var(--amb);color:#25120a;font-weight:800;font-size:14px;
+ padding:11px 22px;border-radius:6px}
+.rb-top .up:hover{background:var(--amb2)}
+.rb-nav{background:var(--ink);border-bottom:1px solid var(--edge)}
+.rb-nav .in{max-width:1140px;margin:0 auto;padding:0 18px;display:flex;gap:0;
+ overflow-x:auto;scrollbar-width:none}
+.rb-nav .in::-webkit-scrollbar{display:none}
+.rb-nav a{font-size:13px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
+ color:var(--dim);padding:15px 17px;white-space:nowrap;border-bottom:2px solid transparent}
+.rb-nav a:hover{color:var(--txt)}
+.rb-nav a.cur{color:var(--amb);border-bottom-color:var(--amb)}
+
+/* герой во всю ширину */
+.rb-hero{position:relative;overflow:hidden;background:#000}
+.rb-hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.5}
+.rb-hero .vg{position:absolute;inset:0;
+ background:linear-gradient(100deg,var(--ink) 12%,rgba(11,11,16,.82) 52%,rgba(11,11,16,.35) 100%)}
+.rb-hero .in{position:relative;max-width:1140px;margin:0 auto;padding:62px 18px 56px}
+.rb-hero .kick{display:inline-flex;align-items:center;gap:7px;font-size:11.5px;font-weight:800;
+ letter-spacing:.14em;text-transform:uppercase;color:var(--amb);margin-bottom:13px}
+.rb-hero .kick svg{width:15px;height:15px}
+.rb-hero h1{font-size:38px;line-height:1.1;font-weight:800;letter-spacing:-.025em;max-width:17ch}
+.rb-hero p{color:#c8c3ba;font-size:16px;margin:15px 0 24px;max-width:56ch}
+.rb-hero .row{display:flex;gap:11px;flex-wrap:wrap}
+.rb-hero .go{background:var(--amb);color:#25120a;font-weight:800;font-size:15px;
+ padding:14px 28px;border-radius:6px}
+.rb-hero .go:hover{background:var(--amb2)}
+.rb-hero .gh{border:1px solid var(--edge);font-weight:700;font-size:14.5px;
+ padding:14px 22px;border-radius:6px;color:var(--dim)}
+.rb-hero .gh:hover{color:var(--txt);border-color:var(--amb)}
+
+/* полоса оффера */
+.rb-bar{display:flex;align-items:center;gap:18px;flex-wrap:wrap;background:var(--pane);
+ border:1px solid var(--edge);border-left:4px solid var(--amb);border-radius:6px;
+ padding:16px 20px;margin:26px 0}
+.rb-bar .lo{background:#08080c;border-radius:5px;padding:10px 14px;flex:0 0 auto;display:flex;align-items:center}
+.rb-bar .lo.pale{background:#fff}
+.rb-bar .lo img{height:26px;width:auto;object-fit:contain}
+.rb-bar .tx{flex:1;min-width:210px}
+.rb-bar .tx b{display:block;font-size:19px;font-weight:800}
+.rb-bar .tx span{font-size:14px;color:var(--dim)}
+.rb-bar .tx em{font-style:normal;color:var(--ok);font-weight:700}
+.rb-bar .go{background:var(--amb);color:#25120a;font-weight:800;font-size:14px;
+ padding:12px 24px;border-radius:6px;flex:0 0 auto}
+.rb-bar:hover .go{background:var(--amb2)}
+
+/* секции и сетки */
+.rb-sec{margin:34px 0}
+.rb-hd{display:flex;align-items:baseline;gap:12px;margin-bottom:14px;
+ padding-bottom:11px;border-bottom:1px solid var(--edge)}
+.rb-hd h2{font-size:21px;font-weight:800;letter-spacing:-.015em}
+.rb-hd em{font-style:normal;font-size:12.5px;color:var(--dim2)}
+.rb-hd .sp{flex:1}
+.rb-hd a{font-size:12.5px;font-weight:700;color:var(--amb)}
+.rb-g6{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}
+.rb-g5{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.rb-strip{display:grid;grid-auto-flow:column;grid-auto-columns:168px;gap:12px;
+ overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;scrollbar-width:none}
+.rb-strip::-webkit-scrollbar{display:none}
+
+/* карточка игры: подпись ПОВЕРХ постера */
+.rb-t{display:block;position:relative;scroll-snap-align:start;border-radius:6px;
+ overflow:hidden;background:var(--pane2);aspect-ratio:152/201;
+ border:1px solid var(--edge);transition:border-color .2s}
+.rb-t:hover{border-color:var(--amb)}
+.rb-t img{width:100%;height:100%;object-fit:cover}
+.rb-t .cap{position:absolute;left:0;right:0;bottom:0;padding:22px 9px 8px;
+ background:linear-gradient(to top,rgba(6,6,10,.96) 30%,transparent)}
+.rb-t .cap b{display:block;font-size:12px;font-weight:700;line-height:1.25;
+ white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rb-t .cap span{display:block;font-size:10px;color:var(--dim2);
+ white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* дисциплины */
+.rb-sp{display:block;position:relative;border-radius:6px;overflow:hidden;
+ border:1px solid var(--edge);background:var(--pane);aspect-ratio:248/327}
+.rb-sp:hover{border-color:var(--amb)}
+.rb-sp img{width:100%;height:100%;object-fit:cover}
+.rb-sp b{position:absolute;left:0;right:0;bottom:0;padding:20px 8px 9px;font-size:12.5px;
+ font-weight:700;text-align:center;
+ background:linear-gradient(to top,rgba(6,6,10,.96) 30%,transparent)}
+
+/* рейтинг-лист вместо таблицы */
+.rb-rank{display:grid;gap:11px}
+.rb-r{display:flex;align-items:center;gap:16px;background:var(--pane);
+ border:1px solid var(--edge);border-radius:6px;padding:15px 18px;flex-wrap:wrap}
+.rb-r:hover{border-color:var(--amb)}
+.rb-r .no{flex:0 0 auto;width:32px;height:32px;border-radius:5px;background:var(--pane2);
+ color:var(--amb);font-weight:800;font-size:15px;display:flex;align-items:center;justify-content:center}
+.rb-r .lo{background:#08080c;border-radius:5px;padding:9px 13px;flex:0 0 auto;
+ display:flex;align-items:center;width:118px;justify-content:center}
+.rb-r .lo.pale{background:#fff}
+.rb-r .lo img{max-height:23px;width:auto;object-fit:contain}
+.rb-r .mid{flex:1;min-width:190px}
+.rb-r .mid b{display:block;font-size:16px;font-weight:800}
+.rb-r .mid span{font-size:13.5px;color:var(--dim)}
+.rb-r .sc{flex:0 0 auto;display:flex;align-items:center;gap:6px;font-weight:800;
+ font-size:14px;color:var(--amb)}
+.rb-r .sc svg{width:15px;height:15px}
+.rb-r .go{flex:0 0 auto;background:var(--amb);color:#25120a;font-weight:800;font-size:13px;
+ padding:10px 20px;border-radius:5px}
+.rb-r .go:hover{background:var(--amb2)}
+
+/* доводы */
+.rb-why{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:20px 0}
+.rb-why div{background:var(--pane);border:1px solid var(--edge);border-radius:6px;padding:17px}
+.rb-why svg{width:22px;height:22px;color:var(--amb);margin-bottom:9px}
+.rb-why b{display:block;font-size:15px;font-weight:800;margin-bottom:5px}
+.rb-why p{font-size:13.5px;color:var(--dim);margin:0}
+
+.rb-cta{display:flex;align-items:center;gap:18px;flex-wrap:wrap;
+ border:1px dashed rgba(255,138,61,.4);border-radius:6px;padding:17px 20px;margin:24px 0}
+.rb-cta p{flex:1;min-width:230px;font-size:15px;color:#d6d1c7}
+.rb-cta a{background:transparent;border:1px solid var(--amb);color:var(--amb);font-weight:800;
+ font-size:13.5px;padding:11px 22px;border-radius:5px;white-space:nowrap}
+.rb-cta a:hover{background:var(--amb);color:#25120a}
+
+/* текст */
+.rb-art{margin:32px 0}
+.rb-art h2{font-size:24px;font-weight:800;margin:32px 0 13px;letter-spacing:-.015em;
+ padding-left:13px;border-left:3px solid var(--amb)}
+.rb-art h3{font-size:18.5px;font-weight:700;margin:24px 0 9px;color:#e6e1d7}
+.rb-art p{margin-bottom:14px;color:#c4bfb6;max-width:74ch}
+.rb-art ul,.rb-art ol{margin:0 0 16px 21px;color:#c4bfb6}
+.rb-art li{margin-bottom:7px}
+.rb-art strong{color:var(--txt)}
+h2.rb-h{font-size:24px;font-weight:800;margin:34px 0 13px;letter-spacing:-.015em;
+ padding-left:13px;border-left:3px solid var(--amb)}
+.rb-lead{font-size:16.5px;color:#c4bfb6;max-width:76ch;margin-bottom:10px}
+.rb-tw{overflow-x:auto;margin-bottom:16px}
+table{width:100%;border-collapse:collapse;font-size:14.5px;min-width:520px}
+th{text-align:left;font-size:11px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;
+ color:var(--dim2);padding:11px 14px;border-bottom:1px solid var(--edge);white-space:nowrap}
+td{padding:12px 14px;border-bottom:1px solid var(--edge);color:#c4bfb6}
+tr:last-child td{border-bottom:0}
+details{border-bottom:1px solid var(--edge);padding:15px 2px}
+details summary{cursor:pointer;font-weight:700;font-size:15.5px;list-style:none;
+ display:flex;align-items:center;gap:11px}
+details summary::-webkit-details-marker{display:none}
+details summary::before{content:"→";color:var(--amb);font-size:15px;transition:transform .2s}
+details[open] summary::before{transform:rotate(90deg)}
+details p{margin:11px 0 0 26px;color:#c4bfb6;font-size:14.5px}
+
+/* подвал */
+.rb-ft{background:var(--ink2);border-top:1px solid var(--edge);padding:36px 18px 26px;margin-top:44px}
+.rb-ft .cols{max-width:1140px;margin:0 auto;display:grid;
+ grid-template-columns:1.6fr 1fr 1fr 1fr;gap:28px}
+.rb-ft img.fl{height:25px;width:auto;margin-bottom:12px;opacity:.85}
+.rb-ft p{font-size:13px;color:var(--dim2);max-width:44ch}
+.rb-ft h4{font-size:11px;font-weight:800;letter-spacing:.11em;text-transform:uppercase;
+ color:var(--dim2);margin-bottom:11px}
+.rb-ft ul{list-style:none}
+.rb-ft li{margin-bottom:7px}
+.rb-ft li a{font-size:13.5px;color:var(--dim)}
+.rb-ft li a:hover{color:var(--amb)}
+.rb-ft .law{max-width:1140px;margin:26px auto 0;padding-top:18px;
+ border-top:1px solid var(--edge);display:flex;align-items:center;gap:13px}
+.rb-ft .n18{flex:0 0 auto;width:36px;height:36px;border-radius:5px;border:2px solid #c8404f;
+ color:#ff6d7d;font-weight:800;font-size:12.5px;display:flex;align-items:center;justify-content:center}
+.rb-ft .law p{font-size:12.5px;max-width:none}
+
+/* липкая полоса во всю ширину внизу */
+.rb-stick{position:fixed;left:0;right:0;bottom:0;transform:translateY(105%);
+ background:var(--pane);border-top:1px solid var(--amb);padding:11px 18px;z-index:80;
+ transition:transform .28s ease}
+.rb-stick.on{transform:translateY(0)}
+.rb-stick .in{max-width:1140px;margin:0 auto;display:flex;align-items:center;gap:14px}
+.rb-stick .lo{background:#08080c;border-radius:5px;padding:7px 10px;flex:0 0 auto;display:flex;align-items:center}
+.rb-stick .lo.pale{background:#fff}
+.rb-stick .lo img{height:19px;width:auto;object-fit:contain}
+.rb-stick .tx{flex:1;min-width:0}
+.rb-stick .tx b{display:block;font-size:14px}
+.rb-stick .tx span{display:block;font-size:12px;color:var(--dim);white-space:nowrap;
+ overflow:hidden;text-overflow:ellipsis}
+.rb-stick .go{background:var(--amb);color:#25120a;font-weight:800;font-size:13px;
+ padding:10px 20px;border-radius:5px;flex:0 0 auto}
+
+@media(max-width:1080px){
+ .rb-g6{grid-template-columns:repeat(4,minmax(0,1fr))}
+ .rb-g5{grid-template-columns:repeat(4,minmax(0,1fr))}
+ .rb-why{grid-template-columns:1fr}
+ .rb-ft .cols{grid-template-columns:1fr 1fr}
+}
+@media(max-width:860px){
+ .rb-hero h1{font-size:29px}
+ .rb-hero .in{padding:44px 18px 40px}
+ .rb-g6,.rb-g5{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:560px){
+ .rb-top .in{height:58px;gap:10px;padding:0 14px}
+ .rb-top .lg img{height:24px}
+ .rb-top .in-a{display:none}
+ .rb-hero h1{font-size:24px;max-width:none}
+ .rb-hero .go,.rb-hero .gh{flex:1;text-align:center}
+ .rb-g6,.rb-g5{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .rb-strip{grid-auto-columns:136px}
+ .rb-hd em{display:none}
+ .rb-hd h2,h2.rb-h,.rb-art h2{font-size:20px}
+ .rb-bar .go,.rb-r .go{width:100%;text-align:center}
+ .rb-r .mid{min-width:120px}
+ .rb-ft .cols{grid-template-columns:1fr}
+ .rb-stick .tx span{display:none}
+ .rb-stick .go{padding:10px 15px}
+}
+
+.rb-box{border:1px solid var(--edge);border-radius:6px;margin:24px 0;overflow:hidden}
+.rb-box>.hd{padding:14px 18px;background:var(--pane);border-bottom:1px solid var(--edge);
+ display:flex;align-items:baseline;gap:11px;flex-wrap:wrap}
+.rb-box>.hd b{font-size:16px;font-weight:800}
+.rb-box>.hd span{font-size:12.5px;color:var(--dim2)}
+.rb-box>.bd{padding:18px}
+.rb-box>.ft{padding:12px 18px;font-size:12.5px;color:var(--dim2);
+ border-top:1px solid var(--edge);background:var(--pane)}
+.rb-box table{min-width:420px}
+
+/* форма входа в две колонки */
+.rb-form{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px;align-items:end}
+.rb-form label{display:block;font-size:11.5px;font-weight:800;letter-spacing:.07em;
+ text-transform:uppercase;color:var(--dim2);margin-bottom:7px}
+.rb-form input{width:100%;background:#0e0e13;border:1px solid var(--edge);border-radius:5px;
+ color:var(--txt);font-size:14.5px;padding:11px 13px;outline:none}
+.rb-form input:focus{border-color:var(--amb)}
+.rb-form .full{grid-column:1/-1;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.rb-form .sub{background:var(--amb);color:#25120a;font-weight:800;font-size:14px;
+ padding:12px 26px;border-radius:5px}
+.rb-form .sub:hover{background:var(--amb2)}
+.rb-form .hint{flex:1;min-width:200px;font-size:13px;color:var(--dim2);margin:0}
+
+/* карточка оценки */
+.rb-score{display:flex;align-items:center;gap:26px;flex-wrap:wrap}
+.rb-score .big{flex:0 0 auto;text-align:center;padding:0 8px}
+.rb-score .big b{display:block;font-size:44px;font-weight:800;line-height:1;color:var(--amb)}
+.rb-score .big span{font-size:12px;color:var(--dim2)}
+.rb-score .big i{display:block;margin-top:6px;color:var(--amb);letter-spacing:2px;font-style:normal}
+.rb-score ul{flex:1;min-width:260px;list-style:none;display:grid;gap:9px}
+.rb-score li{display:flex;align-items:baseline;gap:11px;font-size:14px;color:#c4bfb6}
+.rb-score li b{margin-left:auto;color:var(--txt);font-weight:800}
+.rb-score li em{font-style:normal;color:var(--dim2);font-size:12px}
+
+.rb-foot{display:flex;gap:9px;flex-wrap:wrap;margin:30px 0 0;
+ padding-top:20px;border-top:1px solid var(--edge)}
+.rb-foot a{border:1px solid var(--edge);font-size:13px;font-weight:700;padding:9px 16px;
+ border-radius:5px;color:var(--dim)}
+.rb-foot a:hover{border-color:var(--amb);color:var(--txt)}
+.rb-crumb{font-size:12.5px;color:var(--dim2);padding-top:20px}
+.rb-crumb a{color:var(--dim2)}
+.rb-crumb a:hover{color:var(--amb)}
+h1.rb-t1{font-size:32px;font-weight:800;letter-spacing:-.025em;margin:9px 0 11px}
+
+@media(max-width:700px){
+ .rb-form{grid-template-columns:1fr}
+ h1.rb-t1{font-size:24px}
+ .rb-score .big b{font-size:36px}
+}
+</style>
+</head>
+<body>
+<svg style="display:none" aria-hidden="true"><defs>
+<symbol id="b-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></symbol>
+<symbol id="b-star" viewBox="0 0 24 24"><path d="M12 3.6l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9L3.5 9.8l5.9-.8L12 3.6z" fill="currentColor"/></symbol>
+<symbol id="b-bolt" viewBox="0 0 24 24"><path d="M13.4 2.6L4.8 13.4h5.4l-1.6 8 8.6-10.8h-5.4z" fill="currentColor"/></symbol>
+<symbol id="b-shield" viewBox="0 0 24 24"><path d="M12 2.8l7.6 3v6.1c0 4.2-3 7.6-7.6 9.3-4.6-1.7-7.6-5.1-7.6-9.3V5.8z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+<symbol id="b-euro" viewBox="0 0 24 24"><path d="M17.4 6.4a6.8 6.8 0 00-9.8 2M17.4 17.6a6.8 6.8 0 01-9.8-2M4.6 10.4h8.2M4.6 13.6h8.2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+<symbol id="b-arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</defs></svg>
+<header class="rb-top"><div class="in">
+  <a class="lg" href="/"><img src="/assets-b/rainbet-logo.svg" alt="Rainbet" width="126" height="29"></a>
+  <span class="sp"></span>
+  <a class="in-a" href="/referral-link?sub_id_1=n1" rel="nofollow">Accedi</a>
+  <a class="up" href="/referral-link?sub_id_1=n1" rel="nofollow">Apri un conto</a>
+</div></header>
+<nav class="rb-nav"><div class="in"><a href="/">Home</a><a href="/slot/">Slot</a><a href="/plinko/" class="cur">Plinko</a><a href="/mines/">Mines</a><a href="/bonus/">Bonus</a><a href="/app/">App</a><a href="/accesso/">Accesso</a><a href="/recensioni/">Recensioni</a></div></nav>
+<div class="rb-w">
+  <div class="rb-crumb"><a href="/">Home</a> / Plinko</div>
+  <h1 class="rb-t1">Plinko: righe, rischio e tabella dei payout</h1>
+  <p class="rb-lead">Una pallina, una piramide di pioli, tre secondi e un moltiplicatore. Sotto la tabella dei payout per ogni livello di rischio.</p>
+  <a class="rb-bar" href="/referral-link?sub_id_1=n1" rel="nofollow">
+  <span class="lo "><img src="/assets-b/logos/n1bet-logo.svg" alt="N1 Bet"></span>
+  <span class="tx"><b>N1 Bet</b>
+    <span><em>Registrazioni aperte dall'Italia</em> · Bonus fino a 5.000 € + 200 giri gratis</span></span>
+  <span class="go">Attiva il bonus</span>
+</a>
+  <article class="rb-art"><p>Una pallina cade dall'alto, rimbalza su una griglia piramidale di pioli e in tre secondi decide quanto vale la tua puntata. Rainbet Plinko è un instant-win sviluppato in casa da Rainbet, con tecnologia provably fair e moltiplicatori fino a 1.000x. Qui sotto trovi regole, payout, livelli di rischio, RTP e bonus.</p>
+<h2>Rainbet Plinko in sintesi: dati chiave</h2>
+<div class="tblwrap"><table><thead><tr><th>Parametro</th><th>Dettaglio</th></tr></thead><tbody><tr><td>Provider</td><td>Rainbet Originals (titolo in-house, instant-win, provably fair)</td></tr><tr><td>RTP</td><td>97% (alcune configurazioni e fonti indicano fino al 99%)</td></tr><tr><td>Righe del tabellone</td><td>da 8 a 16, selezionabili con slider</td></tr><tr><td>Livelli di rischio</td><td>Low, Medium, High (+ modalità Rain in alcune versioni)</td></tr><tr><td>Moltiplicatore massimo</td><td>1.000x (16 righe, rischio High)</td></tr><tr><td>Puntata minima</td><td>0,10 € o equivalente in crypto</td></tr><tr><td>Durata di un round</td><td>circa 3 secondi, vincita accreditata subito</td></tr><tr><td>Volatilità</td><td>regolabile tramite rischio e numero di righe</td></tr><tr><td>Dispositivi</td><td>desktop, tablet e mobile</td></tr><tr><td>Valute supportate</td><td>BTC, ETH, USDT, LTC, SOL e altre</td></tr><tr><td>Licenza</td><td>Curaçao (Antillephone)</td></tr></tbody></table></div>
+<h2>Che cos'è il gioco Plinko su Rainbet</h2>
+<p>Il formato nasce in televisione. Anni '80, game show americano "The Price Is Right": i concorrenti lasciavano cadere un gettone lungo un tabellone pieno di pioli sperando che atterrasse nella casella con il premio più alto. I casinò crypto hanno ripreso l'idea e l'hanno spremuta in un formato istantaneo, e il Plinko di Rainbet è la versione proprietaria del brand — un titolo Originals con matematica propria, non il re-skin di un provider esterno.</p>
+<p>La meccanica è elementare, e lì sta tutto il gancio. Imposti puntata, numero di righe e livello di rischio, poi la pallina cade e rimbalza fino a una delle caselle in basso, ciascuna con il suo moltiplicatore. La distribuzione dei premi segue una logica binomiale: le caselle centrali, dove la pallina finisce quasi sempre, pagano in genere meno di 1x, mentre i moltiplicatori grossi stanno ai due estremi del tabellone e si raggiungono di rado. Il divertimento sta nel seguire il percorso rimbalzo dopo rimbalzo.</p>
+<p>Rispetto alle versioni di Stake, BC.Game o Roobet, il Plinko di Rainbet aggiunge la modalità Rain opzionale con moltiplicatori extra e la verifica provably fair integrata in ogni round. Per il resto è un casual game puro: nessuna abilità, nessuna decisione durante il lancio, fortuna filtrata dalle impostazioni che scegli tu.</p>
+<div class="rb-box"><div class="hd"><b>Payout per livello di rischio</b><span>moltiplicatori ai bordi e al centro</span></div><div class="bd"><div class="rb-tw"><table><thead><tr><th>Rischio</th><th>Righe</th><th>Max ai bordi</th><th>Min al centro</th><th>Volatilità</th></tr></thead><tbody><tr><td>Low</td><td>8</td><td style="text-align:right">5,6x</td><td style="text-align:right">0,5x</td><td>bassa</td></tr><tr><td>Low</td><td>16</td><td style="text-align:right">16x</td><td style="text-align:right">0,5x</td><td>bassa</td></tr><tr><td>Medium</td><td>8</td><td style="text-align:right">13x</td><td style="text-align:right">0,3x</td><td>media</td></tr><tr><td>Medium</td><td>16</td><td style="text-align:right">110x</td><td style="text-align:right">0,3x</td><td>media</td></tr><tr><td>High</td><td>8</td><td style="text-align:right">29x</td><td style="text-align:right">0,2x</td><td>alta</td></tr><tr><td>High</td><td>16</td><td style="text-align:right">1.000x</td><td style="text-align:right">0,2x</td><td>alta</td></tr></tbody></table></div></div><div class="ft">Alzando le righe si allarga la forbice: il premio massimo cresce, ma la pallina finisce al centro molto più spesso di quanto finisca agli estremi.</div></div><h2>Come funziona Plinko su Rainbet: regole, rischio e moltiplicatori</h2>
+<p>Il pannello di configurazione ti dà tre leve: importo della puntata, numero di righe (da 8 a 16 tramite slider) e livello di rischio. Più righe, più rimbalzi, quindi risultato più variabile e ventaglio di moltiplicatori più ampio. Ecco i range di payout con 16 righe attive:</p>
+<div class="tblwrap"><table><thead><tr><th>Livello di rischio</th><th>Moltiplicatore minimo</th><th>Moltiplicatore massimo</th></tr></thead><tbody><tr><td>Low</td><td>0,5x</td><td>16x</td></tr><tr><td>Medium</td><td>0,3x</td><td>110x</td></tr><tr><td>High</td><td>0,2x</td><td>1.000x</td></tr><tr><td>Rain</td><td>0,2x</td><td>500x</td></tr></tbody></table></div>
+<p>Due precisazioni. I moltiplicatori massimi valgono soltanto con 16 righe: scendi a 12 o a 8 e si abbassano anche i tetti di vincita. E l'RTP rimane inchiodato al 97% qualunque combinazione tu scelga — alcune fonti e configurazioni del gioco arrivano a indicare il 99%, discrepanza legata a versioni diverse del titolo, ma il ritorno teorico non dipende dal livello di rischio selezionato. Cambiano varianza e frequenza dei colpi, nient'altro. Su High a 16 righe la maggior parte delle caselle paga meno di 1x, con rare esplosioni agli estremi; su Low i ritorni sono piccoli e arrivano spesso. Adrenalina da una parte, costanza dall'altra.</p>
+<p>La modalità Rain merita un discorso a parte. Il tabellone include due caselle speciali, i Rain bucket: se la pallina ci cade dentro assegnano un moltiplicatore casuale tra 2x e 100x e la pallina riparte dall'alto senza che tu debba puntare di nuovo. I moltiplicatori si accumulano lancio dopo lancio, con un tetto complessivo dichiarato di 10.000x.</p>
+<h2>Come giocare a Plinko su Rainbet passo a passo</h2>
+<p>Secondo le informazioni disponibili, il gioco offre una modalità demo accessibile gratuitamente e senza registrazione, utile per osservare le meccaniche prima di usare denaro reale.</p>
+<p>Per giocare con soldi veri:</p>
+<ol><li><b>Registrati</b>: bastano username, un indirizzo e-mail valido e una password. In fase di iscrizione trovi anche il campo referral in un menu a tendina.</li><li><b>Effettua il primo deposito</b> dalla sezione cassa, scegliendo tra le crypto supportate — BTC, ETH, USDT, LTC, SOL, TRX, TON, LINK, XLM, USDC, XRP — oppure tramite le opzioni di on-ramp dove disponibili.</li><li><b>Apri la sezione Originals</b> e seleziona Plinko.</li><li><b>Imposta la puntata</b>, a partire da 0,10 € per pallina.</li><li><b>Scegli righe e rischio</b>: da 8 a 16 righe, livello Low, Medium o High.</li><li><b>Lancia</b>: clic su "Place Bet" per il manuale, oppure attiva l'Auto Bet impostando il numero di round consecutivi e i limiti di stop on win e stop on loss.</li><li><b>Incassa o preleva</b>: la vincita arriva sul saldo appena la pallina atterra e prelevi dalla cassa quando vuoi.</li></ol>
+<h2>Strategie e consigli per Rainbet Plinko</h2>
+<p>Mettiamo subito una cosa in chiaro: ogni caduta è un evento indipendente e nessuna strategia sposta di un millimetro l'RTP del 97%. Però le impostazioni cambiano radicalmente l'esperienza, e giocare con metodo allunga la sessione.</p>
+<ul><li><b>Flat betting su rischio Low</b>: puntare l'1% fisso del bankroll, ad esempio 1 € con 100 € di budget, produce colpetti frequenti e oscillazioni contenute. Utile per sessioni lunghe.</li><li><b>Martingala e il suo tallone d'Achille</b>: raddoppiare dopo ogni perdita funziona sulla carta. Partendo da 0,10 € la sequenza diventa 0,10 → 0,20 → 0,40 → 0,80 → 1,60 → 3,20 → 6,40 €: dopo sette sconfitte di fila hai messo 12,70 € complessivi per recuperare un'unità da 0,10 €. La crescita esponenziale arriva prima di quanto sembri.</li><li><b>Approccio misto</b>: la massa delle puntate su Low o Medium per tenere il saldo fluido, e qualche lancio occasionale su High a 16 righe per tentare i moltiplicatori più alti agli estremi.</li><li><b>Stop-loss e take-profit</b>: decidi prima di iniziare, ad esempio stop al −30% del bankroll di sessione e incasso al +50%. L'autoplay con i limiti di stop aiuta a rispettarli senza tentazioni.</li></ul>
+<p>Le serie negative capitano a tutti. Quanto pesano dipende da come hai impostato la sessione.</p>
+<h2>Bonus, rakeback e promozioni applicabili a Plinko</h2>
+<p>Essendo un titolo Originals, il gioco rientra nel circuito promozionale della piattaforma. Le meccaniche che puoi aspettarti:</p>
+<ul><li><b>Instant rakeback</b>: una percentuale di ogni puntata rientra sul saldo subito, vincita o perdita che sia.</li><li><b>Cashback</b> settimanale o mensile in base all'attività.</li><li><b>Rain promo in chat</b>: free bet distribuite nella chat del sito, riscattabili col pulsante "claim" per chi è più veloce.</li><li><b>Free bets, giveaway e codici promozionali</b> pubblicati sui canali del brand.</li><li><b>Programma VIP a livelli</b>: più giochi, più salgono rakeback e vantaggi.</li><li><b>Offerta di benvenuto</b>: i nuovi iscritti possono attivare un rakeboost extra del 20% per le prime 72 ore.</li></ul>
+<p>Il contributo di Plinko al rollover e l'eventuale limite di puntata massima con bonus attivo dipendono dai termini della singola promozione: leggili prima di iniziare, così ogni lancio conta nel verso giusto.</p>
+<h2>Sicurezza, licenza e provably fair</h2>
+<p>Il sito opera con licenza di Curaçao rilasciata tramite Antillephone e protegge le sessioni con crittografia SSL. Il sistema provably fair funziona così: ogni round combina un server seed e un client seed, e dopo il lancio verifichi in autonomia che l'hash dell'esito corrisponda al percorso della pallina che hai visto sullo schermo. Verifica matematica, niente fiducia cieca.</p>
+<p>In alcune aree geografiche il sito non è accessibile e compare il messaggio «Rainbet is restricted in your area».</p>
+<h2>Pro e contro di Plinko su Rainbet</h2>
+<p><b>Pro:</b></p>
+<ul><li>Esito verificabile round per round grazie al provably fair</li><li>Volatilità su misura: 3-4 livelli di rischio e righe da 8 a 16</li><li>Moltiplicatori fino a 1.000x, con la modalità Rain che apre ad accumuli fino a 10.000x</li><li>Puntata minima da 0,10 € e round da circa 3 secondi</li><li>Compatibilità piena con desktop, tablet e smartphone</li><li>Interfaccia ottimizzata anche per dispositivi meno recenti e connessioni non velocissime</li><li>Instant rakeback e promozioni applicabili anche su questo gioco</li></ul>
+<p><b>Contro:</b></p>
+<ul><li>Puro gioco di fortuna: nessuna abilità può influenzare l'esito</li><li>Il payout da 1.000x si raggiunge solo su High a 16 righe</li><li>Le caselle centrali pagano spesso meno della puntata</li><li>Righe e bonus variano tra versioni, quindi le tabelle vanno ricontrollate nel gioco</li><li>Accesso non disponibile in alcune aree geografiche</li></ul>
+<h2>FAQ su Rainbet Plinko</h2>
+<p><b>Qual è l'RTP di Rainbet Plinko?</b></p>
+<p>Il valore dichiarato è del 97%; alcune configurazioni e fonti indicano fino al 99%. L'RTP non cambia al variare del livello di rischio: cambiano solo varianza e frequenza delle vincite.</p>
+<p><b>Quanto si può vincere al massimo?</b></p>
+<p>Il moltiplicatore più alto è 1.000x, disponibile solo con 16 righe e rischio High. Nelle versioni con modalità Rain, l'accumulo di moltiplicatori su rilanci multipli può arrivare fino a 10.000x.</p>
+<p><b>Qual è la puntata minima?</b></p>
+<p>0,10 € per pallina, o l'equivalente nella criptovaluta selezionata.</p>
+<p><b>Esiste una modalità demo?</b></p>
+<p>Secondo le informazioni disponibili sì: una versione gratuita accessibile senza registrazione, utile per imparare le meccaniche prima di puntare denaro reale.</p>
+<p><b>Le strategie aumentano le probabilità di vincita?</b></p>
+<p>No. Ogni lancio è indipendente e l'RTP resta fisso al 97%. Le strategie servono a gestire bankroll, durata della sessione ed esposizione alla varianza.</p>
+<p><b>Si può giocare da smartphone?</b></p>
+<p>Sì: il gioco funziona su desktop, tablet e mobile, con un'interfaccia leggera che resta fluida anche su dispositivi meno recenti e connessioni non velocissime.</p>
+<p><b>Come funziona la modalità Rain?</b></p>
+<p>Due caselle speciali assegnano un moltiplicatore casuale tra 2x e 100x e fanno ricadere la pallina senza nuova puntata. I moltiplicatori si sommano fino a un massimo di 10.000x.</p>
+<p><b>Quali criptovalute posso usare per giocare?</b></p>
+<p>La cassa supporta Bitcoin, Ethereum, Tether, Litecoin, Solana, Tron, Toncoin, Chainlink, Stellar, USD Coin e Ripple.</p></article>
+  <div class="rb-cta"><p>Vuoi lo stesso gioco senza passare dalla criptovaluta?</p><a href="/referral-link?sub_id_1=n1" rel="nofollow">Apri il conto in euro</a></div>
+  <h2 class="rb-h">La classifica delle piattaforme</h2>
+  <div class="rb-rank" id="classifica"><div class="rb-r">
+    <span class="no">1</span>
+    <span class="lo "><img src="/assets-b/logos/n1bet-logo.svg" alt="N1 Bet" loading="lazy"></span>
+    <span class="mid"><b>N1 Bet</b><span>Bonus fino a 5.000 € + 200 giri gratis · Catalogo slot più ampio</span></span>
+    <span class="sc"><svg><use href="#b-star"/></svg>4.6</span>
+    <a class="go" href="/referral-link?sub_id_1=n1" rel="nofollow">Gioca</a>
+  </div><div class="rb-r">
+    <span class="no">2</span>
+    <span class="lo "><img src="/assets-b/logos/slotlair-logo.svg" alt="SlotLair" loading="lazy"></span>
+    <span class="mid"><b>SlotLair</b><span>Bonus fino a 3.000 € + 450 giri gratis · Il pacchetto di giri più generoso</span></span>
+    <span class="sc"><svg><use href="#b-star"/></svg>4.4</span>
+    <a class="go" href="/referral-link?sub_id_1=slotlair" rel="nofollow">Gioca</a>
+  </div><div class="rb-r">
+    <span class="no">3</span>
+    <span class="lo pale"><img src="/assets-b/logos/winnita-logo.svg" alt="Winnita" loading="lazy"></span>
+    <span class="mid"><b>Winnita</b><span>Bonus fino a 1.500 € + 300 giri gratis · Conto aperto in pochi minuti</span></span>
+    <span class="sc"><svg><use href="#b-star"/></svg>4.2</span>
+    <a class="go" href="/referral-link?sub_id_1=winita" rel="nofollow">Gioca</a>
+  </div><div class="rb-r">
+    <span class="no">4</span>
+    <span class="lo pale"><img src="/assets-b/logos/bcgame-logo.png" alt="BC Game" loading="lazy"></span>
+    <span class="mid"><b>BC Game</b><span>Free bet fino a 100 USD · Depositi e prelievi in criptovaluta</span></span>
+    <span class="sc"><svg><use href="#b-star"/></svg>4.0</span>
+    <a class="go" href="/referral-link?sub_id_1=bc" rel="nofollow">Gioca</a>
+  </div></div>
+  <div class="rb-foot"><a href="/">Home</a><a href="/slot/">Slot</a><a href="/mines/">Mines</a><a href="/bonus/">Bonus</a><a href="/app/">App</a><a href="/accesso/">Accesso</a><a href="/recensioni/">Recensioni</a></div>
+</div>
+<footer class="rb-ft">
+  <div class="cols">
+    <div>
+      <img class="fl" src="/assets-b/rainbet-logo.svg" alt="Rainbet" width="110" height="25">
+      <p>Guida indipendente al casinò e al palinsesto sportivo di Rainbet, con la classifica
+      delle piattaforme aperte ai giocatori italiani. Non siamo l'operatore e non gestiamo
+      conti di gioco.</p>
+    </div>
+    <div><h4>Guida</h4><ul><li><a href="/">Home</a></li><li><a href="/slot/">Slot</a></li><li><a href="/plinko/">Plinko</a></li><li><a href="/mines/">Mines</a></li></ul></div>
+    <div><h4>Sezioni</h4><ul><li><a href="/bonus/">Bonus</a></li><li><a href="/app/">App</a></li><li><a href="/accesso/">Accesso</a></li><li><a href="/recensioni/">Recensioni</a></li></ul></div>
+    <div><h4>Piattaforme</h4><ul><li><a href="/referral-link?sub_id_1=n1" rel="nofollow">N1 Bet</a></li><li><a href="/referral-link?sub_id_1=slotlair" rel="nofollow">SlotLair</a></li><li><a href="/referral-link?sub_id_1=winita" rel="nofollow">Winnita</a></li><li><a href="/referral-link?sub_id_1=bc" rel="nofollow">BC Game</a></li></ul></div>
+  </div>
+  <div class="law">
+    <span class="n18">18+</span>
+    <p>Il gioco è vietato ai minori di 18 anni. Il gioco può causare dipendenza patologica.
+    Gioca responsabilmente.</p>
+  </div>
+</footer>
+<a class="rb-stick" id="stk" href="/referral-link?sub_id_1=n1" rel="nofollow">
+  <span class="in">
+    <span class="lo "><img src="/assets-b/logos/n1bet-logo.svg" alt="N1 Bet"></span>
+    <span class="tx"><b>N1 Bet</b><span>Bonus fino a 5.000 € + 200 giri gratis</span></span>
+    <span class="go">Apri il conto</span>
+  </span>
+</a>
+<script>
+(function(){var s=document.getElementById('stk');
+addEventListener('scroll',function(){s.classList.toggle('on',scrollY>520)},{passive:true});})();
+</script>
+</body>
+</html>
